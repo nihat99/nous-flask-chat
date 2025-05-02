@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 API_KEY = "sk-iUAXCawf3pmth203lEhJtw"
 API_URL = "https://inference-api.nousresearch.com/v1/chat/completions"
-MODEL = "DeepHermes-3-Mistral-24B-Preview"
+MODEL = "Hermes-3-Llama-3.1-405B"
 
 SYSTEM_PROMPT = (
     "You are a deep thinking AI, you may use extremely long chains of thought to deeply "
